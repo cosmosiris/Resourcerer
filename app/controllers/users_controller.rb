@@ -7,7 +7,6 @@ include SessionsHelper
         render :teacher_show
       elsif current_user && current_user.user_type == 'student'
         @resources = Resource.all
-        p @resources
         render :student_show
       else
         @errors = ["Please sign in"]

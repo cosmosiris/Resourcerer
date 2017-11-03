@@ -2,7 +2,6 @@ class FavoritesController < ApplicationController
   include SessionsHelper
 
   def index
-    @favorites = current_user.favorites
     @resources = current_user.resources_favorited
   end
 
