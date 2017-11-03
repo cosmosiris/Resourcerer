@@ -3,6 +3,11 @@ class FavoritesController < ApplicationController
 
   def index
     @resources = current_user.resources_favorited
+
+    respond_to do |f|
+    f.html { render :_index}
+    f.json { render json: @favorited_resources.to_json}
+    f.js
   end
 
   def show
