@@ -19,9 +19,9 @@ Everything is setup for you. All you need to do is:
 
 
 ### Contributors
-* Iris Nevins => (@cosmosiris)
-* Sarah Caplan => (@sarahkcaplan)
-* Maria Luisa => (@maluisar)
+* Iris Nevins => @cosmosiris
+* Sarah Caplan => @sarahkcaplan
+* Maria Luisa => @maluisar
 
 ### Technologies 
 1. Ruby on Rails & Ruby
