@@ -7,6 +7,7 @@ This is a Student/Teacher Network for Sharing Resources
 3. Teachers can create private resources that only teachers can see
 4. Teachers can add tags to resources
 5. Resources are searchable by tag
+6. Full testing-suite that uses Travis CI
 
 ### Forking This Repo
 Everything is setup for you. All you need to do is:
@@ -29,3 +30,4 @@ Everything is setup for you. All you need to do is:
 3. JQuery & Javascript
 4. CSS
 5. Bootstrap
+6. Travis CI (for testing)
